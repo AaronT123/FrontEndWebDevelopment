@@ -1,0 +1,117 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/4f92e63bf8.js" crossorigin="anonymous"></script>
+    <title>P17228395</title>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div id="menuToggler">&#8801;</div>
+    <nav id="menu">
+        <a href="index.html">
+            <h4 class="logo">Serene Scents</h4>
+        </a>
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="products.html" class="nav-link">Products</a>
+        <a href="#" class="nav-link">About</a>
+        <a href="cart.html" class="nav-link">Cart</a>
+    </nav>
+
+    <!-- Cart -->
+    <div class="cart">
+        <div class="cart-content">
+
+            <h3>Cart</h3>
+
+            <table class="cart-items">
+                <tbody class="cart-items-body">
+                    <tr>
+                        <th colspan="2">Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>X</th>
+                    </tr>
+                    <tr class="cart-row">
+                        <td class="image-row">
+                            <img class="table-img" src="images/aromaworks-lavender.jpg" alt="aromaworks lavender" />
+                        </td>
+                        <td>
+                            <p class="product-name">Aromaworks Lavender</p>
+                            <p class="product-variant"></p>
+                        </td>
+                        <td><input class="quantity" type="number" value="1" name="quantity" min="1" max="99"></td>
+                        <td>
+                            <p class="cart-price">£15.00</p>
+                        </td>
+                        <td><button class="btn-x">X</button></td>
+                    </tr>
+                    <tr class="cart-row">
+                        <td class="image-row">
+                            <img class="table-img" src="images/manly.jpg" alt="manly reed diffuser" />
+                        </td>
+                        <td>
+                            <p class="product-name">Manly Reed Diffuser</p>
+                            <p class="product-variant">Chocolate</p>
+                        </td>
+                        <td><input class="quantity" type="number" value="2" name="quantity" min="1" max="99"></td>
+                        <td>
+                            <p class="cart-price">£18.00</p>
+                        </td>
+                        <td><button class="btn-x">X</button></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="cart-total">
+                <h2 class="cart-total-label">Cart Total: </h2>
+                <h2 class="cart-total-price">00.00</h2>
+                <form style="display: inline" action="" method="get" class="checkout">
+                    <button class="shop-now checkout">Checkout</button>
+                </form>
+            </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer>
+        <h4>Follow us on social media!</h4>
+        <div class="footer-logos">
+            <a href="#">
+                <img class="social-logo" src="images/facebook.png" alt="Facebook" />
+            </a>
+            <a href="#">
+                <img class="social-logo" src="images/instagram.png" alt="Instagram" />
+            </a>
+            <a href="#">
+                <img class="social-logo" src="images/twitter.png" alt="Twitter" />
+            </a>
+            <a href="#">
+                <img class="social-logo" src="images/pinterest.png" alt="Pinterest" />
+            </a>
+            <a href="#">
+                <img class="social-logo" src="images/youtube.png" alt="Youtube" />
+            </a>
+
+        </div>
+
+    </footer>
+
+    <script src="js/scripts.js"></script>
+    <script src="js/cart.js"></script>
+
+</body>
+
+</html>
